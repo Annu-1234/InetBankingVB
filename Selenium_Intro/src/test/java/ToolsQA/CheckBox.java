@@ -20,7 +20,7 @@ public class CheckBox {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		Thread.sleep(6000);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h5[contains(text(),'Elements')]")));
-		Thread.sleep(6000);
+		Thread.sleep(6000);  
 		driver.findElement(By.xpath("//h5[contains(text(),'Elements')]")).click();
 
 		Thread.sleep(5000);
